@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>homework 2</title>
+</head>
+<body>
+    <form action="#">
+    <section>
+        <div><h3>Коротко о себе</h3></div>
+    <p><label>Имя: <input type="text" name="firstname"></label><br>
+     <br>   
+    <label>Фамилия: <input type="text" name="lastname"></label><br>
+     <br>
+    <label>Пол: <input type="radio" name="gender-man">мужской <input type="radio" name="gender-woman">женский</label><br>
+     <br>
+    <label> Возраст:<input type="text" name="age" size="1"> лет</label>
+     <br>
+     <br>
+    </p>
+    </section>
+    <section>
+        <div class="details"><h3>Подробнее о себе</h3></div>
+    <p><label><input type="radio" name="gender-again-man">Молодой человек</label><br>
+     <br>
+     <label><input type="radio" name="gender-again-woman">девушка</label><br>
+     <label><input type="text" name="birthday">Дата рождения</label><br>
+     <label><input type="text" name="family-status">Семейное положение</label><br>
+     <label><input type="text" name="social-status">Социальный статус</label><br>
+     <label><input type="text" name="homeplace">Местожительство</label><br>
+      <br>
+     <label><b>Что вы обычно делаете на выходных:</b></label><br>
+      <br>
+     <label><input type="checkbox" name="sleep">Сплю</label><br>
+     <label><input type="checkbox" name="walk">Гуляю с друзьями</label><br>
+     <label><input type="checkbox" name="fishing">Хожу на рыбалку</label><br>
+     <label><input type="checkbox" name="play"></label>Играю в игры<br>
+      <br>
+      <label><b>Рассказать о формах в книге, посвящённой HTML:</b></label><br>
+      <br>
+      <select name="list">
+        <option>Да</option>
+        <option>Нет</option>
+        <option>Не знаю</option>
+        <option>Не интересно</option>
+      </select>
+       <br>
+       <br>
+       <label><b>Сколько книг вы прочитали за свою жизнь:</b></label>
+        <br>
+        <br>
+        <label><input type="radio" name="not-many">0-10</label><br>
+        <label><input type="radio" name="more">11-20</label><br>
+        <label><input type="radio" name="enough">21-50</label><br>
+        <label><input type="radio" name="a-lot">50+</label><br>
+        <br>
+        <label><b>Ваши комментарии:</b></label><br>
+        <textarea name="comments" cols="80" rows="10"></textarea>
+        <br>
+        <select multiple name="multi-list" >
+            <option>Первая позиция</option>
+            <option>Вторая позиция</option>
+            <option>Третья позиция</option>
+            <option>Четвёртая позиция</option>
+            <option>Пятая позиция</option>
+        </select>
+     </p>   
+    </section>
+    <section>
+            <div class="conclusion"><h3>И в заключении</h3></div>
+        <p><input type="text" size="25" placeholder="Это поле было введено до вас"><br>
+            <br>
+         <label><b>Email:</b></label><br>
+            <input type="email" name="email"><br>
+            <br>
+            <label><b>Хотите подписаться на самую модную рассылку спама:</b><br>
+            <i>Выберите категории</i><br>
+            </label>
+            <br>
+            <label><input type="checkbox" name="tech">Оборудование</label><br>
+            <label><input type="checkbox" name="food">Как приготовить обеды</label><br>
+            <label><input type="checkbox" name="money">Заработай миллион за два дня!</label><br>
+            <br>
+            <label><b>На сколько сложная задача:</b><br></label>
+            <br>
+            <label><input type="radio" name="easy">Совсем нет</label><br>
+            <label><input type="radio" name="medium">Так себе</label><br>
+            <label><input type="radio" name="hard">Еле справился</label><br>
+         </p>
+    </section>
+         <p><button type="submit">Отправить</button></p>       
+    </form>
+</body>
+</html>
